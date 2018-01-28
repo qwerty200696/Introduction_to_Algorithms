@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Author：wangwlj
+# More info in blog: http://wangwlj.com
 # 计数排序
 
 

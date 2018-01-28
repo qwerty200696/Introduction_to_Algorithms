@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Author: wangwlj
+# More info in blog: http://wangwlj.com
 # 快速排序
 
 

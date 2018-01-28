@@ -10,6 +10,7 @@ i是每个元素前面、需要移动的最前方。
 形象的解释：插入纸牌：key是当前带插入的牌，找到插入的位置，先把每个大的都往后挪一个位置出来，再把key插入到空出来的位置。
 """
 # Author: wangwlj
+# More info in blog: http://wangwlj.com
 # 插入排序
 
 def insertion_sort(A):

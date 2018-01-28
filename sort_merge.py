@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # author: wangwlj
+# More info in blog: http://wangwlj.com
 # 归并排序
 from math import floor
 

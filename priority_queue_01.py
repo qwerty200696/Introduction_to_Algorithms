@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+# Author: wangwlj
+# More info in blog: http://wangwlj.com
+# 优先队列
+
+
 def PARENT(i):
     return i / 2
 
