@@ -8,14 +8,14 @@
 
 """
     A 有n个数，每个数得到范围都是n^3-1。
-    基数排序：d位数，每位数有k个取值可能（基【也就是进制】为k）。
+    基数排序：每个数均为nDigits位数(书中用d表示)，每位数有k个取值可能（基【也就是进制】为k，即base_k）。
 
 """
 import random
 
-n = 5
+chn = 5  # the number of elements to be sorted.
 base_k = 5  # bask could be any number. In test 8.3-4 is 5(equal to n)
-d = 3  # 8.3-4
+nDigits = 3  # 位数的个数，表示几(3)位数  8.3-4
 
 
 def stable_sort(A, index):  # similar with counting sort,
@@ -41,7 +41,7 @@ def stable_sort(A, index):  # similar with counting sort,
 
 
 def radix_sort(A):
-    for i in range(1, d + 1):
+    for i in range(1, nDigits + 1):
         A = stable_sort(A, i)
     # for i in range(0, len(A)):
     #     print(A[i], end=' ')
@@ -53,7 +53,7 @@ if __name__ == "__main__":
     # A = [114, 18, 35, 74, 36]
     A = []
     for i in range(0, n):
-        A.append(random.randint(0, pow(n, 3)))
+        A.append(random.randint(0, pow(n, nDigits)))
 
     for i in range(0, len(A)):
         print(A[i], end=' ')
