@@ -6,7 +6,7 @@
 
 <!-- more -->
 
-本文所有实现代码均已放在`GitHub`上，欢迎查看：[GitHub链接](https://github.com/qwerty200696/Introduction_to_Algorihtms)
+本文所有实现代码均已放在`GitHub`上，欢迎查看：[GitHub链接](https://github.com/qwerty200696/Introduction_to_Algorithms)
 ## 本章概述
 
 非比较排序指使用一些非比较的操作来确定排序顺序的排序算法，对于非比较排序，下界O(nlgn)不适用。

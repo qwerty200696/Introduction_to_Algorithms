@@ -1,5 +1,4 @@
 
-![](http://ww1.sinaimg.cn/large/c38a0784ly1fnva4kd9a0j20k50j5wjm.jpg)
 本章介绍几种基本的结构：栈、队列、链表和有根树。
 
 <!-- more -->
@@ -11,12 +10,12 @@
 
 **概念定义**：栈采用**<font color=FA1C1C>先进后出</font>**策略（LIFO）。基本操作是**压入（PUSH）**和**弹出（POP）**。如果`s.top=0`，表示栈空，如果试图对空栈进行`POP`操作会发生下溢（`underflow`）。如果`s.top>n`,表示栈满，如果进行`PUSH`操作会发生上溢（`overflow`）。
 
-栈的Python实现代码链接：[Introduction_to_Algorihtms/stack_my.py](https://github.com/qwerty200696/Introduction_to_Algorihtms/blob/master/stack_my.py)
+栈的Python实现代码链接：[Introduction_to_Algorihtms/stack_my.py](https://github.com/qwerty200696/Introduction_to_Algorithms/blob/master/Part_3/Chap_10/stack.py)
 
 ### 队列queue
 **概念定义**：队列采用**<font color=FA1C1C>先进先出</font>**策略（FIFO）。基本操作是**入队（enqueue）**和**出队（dequeue）**。如果`head=tail`，表示队列为空，如果试图对空队列进行`enqueue`操作会发生下溢（`underflow`）。如果`head=tail+1`,表示队列满，如果进行`dequeue`操作会发生上溢（`overflow`）。
 
-队列的Python实现：[Introduction_to_Algorihtms/queue_my.py](https://github.com/qwerty200696/Introduction_to_Algorihtms/blob/master/queue_my.py)
+队列的Python实现：[Introduction_to_Algorihtms/queue_my.py](https://github.com/qwerty200696/Introduction_to_Algorithms/blob/master/Part_3/Chap_10/queue.py)
 
 
 ## 链表（10.2，P131）
@@ -25,7 +24,7 @@
 
 双向链表(`doubly linked list`)的每个结点包括两个部分：一个是存储数据元素的数据域，另一个是存储下一个(前一个)结点地址的指针域。 
 
-未排序双向链表的Python实现代码：[Introduction_to_Algorihtms/list_my.py](https://github.com/qwerty200696/Introduction_to_Algorihtms/blob/master/list_my.py)
+未排序双向链表的Python实现代码：[Introduction_to_Algorihtms/list_my.py](https://github.com/qwerty200696/Introduction_to_Algorithms/blob/master/Part_3/Chap_10/list.py)
 
 ## 指针和对象的实现（10.3，P134）
 
