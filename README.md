@@ -10,6 +10,7 @@
 - [算法导论详解(6) 第七章快速排序](http://wangwlj.com/2018/01/11/algorithm_tutorial_chapter_7/)
 - [算法导论详解(7)之第八章 线性排序算法](http://wangwlj.com/2018/01/27/algorithm_tutorial_chapter_8/)
 - [算法导论详解(8) 第十章 基本数据结构](http://wangwlj.com/2018/01/27/algorithm_tutorial_chapter_10/)
+- [算法导论详解(9) 第十一章 散列表](http://wangwlj.com/2018/01/30/algorithm_tutorial_chapter_11/)
 
 在对应的章节目录下，均有完整的`Markdown`文件，欢迎查阅。
 
