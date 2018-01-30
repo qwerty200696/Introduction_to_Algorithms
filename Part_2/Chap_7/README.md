@@ -1,13 +1,3 @@
----
-title: 算法导论详解(6) 第七章快速排序
-date: 2018-01-11 21:54:42
-categories: Algorithm
-tags:
-	- 算法导论
-	- Algorithm
-	- 快速排序
-	- quicksort
----
 
 ## 快速排序简介
 

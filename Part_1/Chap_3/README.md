@@ -1,12 +1,4 @@
----
-title: 算法导论详解(2) 第三章函数的增长
-date: 2017-12-13 22:51:38
-categories: Algorithm
-tags:
-	- 算法导论
-	- Algorithm
-	- 函数渐近
----
+
 本文是《算法导论》第三章：函数的增长的学习笔记。
 没有涉及到具体的算法。
 主要内容有：
@@ -16,7 +8,7 @@ tags:
 <!-- more-->
 ## 3.1 渐近记号
 $\Theta、 \text{O}和\Omega $三种记号的图示：
-![1](algorithm_tutorial_chapter_3/algorithm_chap_3_1.png)
+![image](http://ws3.sinaimg.cn/large/c38a0784ly1fnz09knlnbj20l407vgmp.jpg)
 
 ### 先看第一幅图(a)——$\Theta$记号
 
@@ -95,8 +87,8 @@ $$\lim_{n\rightarrow \infty} \frac{f(n)}{g(n)} = \infty $$
 
 ### 渐近运算的运算性质  
 传递性、自反性、对称性与转置对称性：
-![2](algorithm_tutorial_chapter_3/algorithm_chap_3_2.png)
-![3](algorithm_tutorial_chapter_3/algorithm_chap_3_3.png)
+![image](http://ws3.sinaimg.cn/large/c38a0784ly1fnz0arjrhhj20fk06uabg.jpg)
+![image](http://ws3.sinaimg.cn/large/c38a0784ly1fnz0b29ajej20f503fq3f.jpg)
 而且：两个函数f和g的渐近比较关系可与实数a与b之间的比较做类比： 
 
 - f(n)=O(g(n)) 类似于a<= b 

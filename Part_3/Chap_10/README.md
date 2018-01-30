@@ -1,12 +1,3 @@
----
-title: 算法导论详解(8) 第十章 基本数据结构
-date: 2018-01-27 17:11:56
-categories: Algorithm
-tags:
-	- 算法导论
-	- Algorithm
-	- 数据结构
----
 
 ![](http://ww1.sinaimg.cn/large/c38a0784ly1fnva4kd9a0j20k50j5wjm.jpg)
 本章介绍几种基本的结构：栈、队列、链表和有根树。

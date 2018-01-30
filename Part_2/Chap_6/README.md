@@ -1,20 +1,7 @@
----
-title: 算法导论详解(5) 第六章堆排序
-date: 2018-01-09 21:27:27
-categories: Algorithm
-tags:
-	- 算法导论
-	- Algorithm
-	- 堆排序
-	- 优先队列
----
+
 
 
 在第二章介绍了两种排序算法，第六章将介绍第三种排序算法：堆排序(heapsort)，以及基于堆排序的优先队列。
-
-![](http://ww1.sinaimg.cn/large/c38a0784ly1fn9epgz0rbj20k006rjs1.jpg)
-
-<!-- more -->
 
 空间原址性(in place)：仅有常数个元素需要在排序过程中存储在数组之外。
 
