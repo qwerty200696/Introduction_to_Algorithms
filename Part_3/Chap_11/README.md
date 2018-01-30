@@ -1,3 +1,4 @@
+> 由于Github上不支持MathJax公式，欢迎到我的博客查看该文章：[算法导论详解(9) 第十一章 散列表](http://wangwlj.com/2018/01/30/algorithm_tutorial_chapter_11/)
 
 直接寻址表(`direct-address table`)缺点：如果全域U很大，分配直接寻址表T也不太现实；另一方面，实际存储的关键字集合`K`相对于`U`来说可能很小，导致浪费空间。
 
