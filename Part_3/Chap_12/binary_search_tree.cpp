@@ -309,7 +309,7 @@ int main() {
     t->Tree_Delete(s);
     cout << "删除元素：" << s->key <<" 后：";
     t->Inorder_Tree_Walk(t->getRoot());
-    //这边删除元素好像还是有点问题的。局部 变量的问题。在函数结束后，就被释放了，所以y不是安全的？
+    
     cout << endl;
     return 0;
 }
